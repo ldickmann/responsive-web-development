@@ -133,3 +133,9 @@ footer {
   padding: 2rem;
   margin-top: 3rem;
 }
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
