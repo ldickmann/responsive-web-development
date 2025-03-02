@@ -6,7 +6,7 @@
 
 Este é o primeiro projeto da disciplina de Responsive Web Development do curso de Análise e Desenvolvimento de Sistemas da Univali. Consiste em uma página (utilizar HTML5) web com um animal em extinção.
 
-Minha page é informativa sobre a Tartaruga-de-couro, ameaçada de extinção. A página contém informações sobre a espécie, imagens e vídeos.
+Minha page é informativa sobre a Tartaruga-de-couro, ameaçada de extinção. A página contém informações sobre a espécie e imagens.
 
 ## 🚀 Tecnologias
 
