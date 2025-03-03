@@ -1,6 +1,6 @@
 # 🎓 Primeira Tarefa - Responsive Web Development
 
-## Aula pelo mestre Alex Luciano Roesler Rese - Github: https://github.com/alexrese
+## Professor: Alex Luciano Roesler Rese - Github: https://github.com/alexrese
 
 ## 📋 Sobre o Projeto
 

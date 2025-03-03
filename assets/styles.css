@@ -12,7 +12,7 @@ body {
   color: #333;
 }
 
-/* Header */
+/* Header | Cabeçalho */
 .header {
   background-color: #0a3459;
   padding: 2rem 0;
@@ -37,35 +37,30 @@ body {
   z-index: 1;
 }
 
-.data-row {
-  display: flex;
-  padding: 0.8rem 0;
-  border-bottom: 1px solid #eee;
-  align-items: center;
-}
-
+/* Lista de dados */
 .data-label {
-  flex: 0 0 180px;
   font-weight: 600;
   color: #0a3459;
 }
 
 .data-value {
-  flex: 1;
   color: #555;
+  margin-bottom: 1rem;
 }
+
 /* Seção principal */
 .section {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 2rem;
-  display: grid;
-  grid-template-columns: 2fr 1fr;
+  display: flex;
   gap: 2rem;
-  align-items: start;
+  flex-wrap: wrap;
 }
 
 .container-article {
+  flex: 1;
+  min-width: 300px;
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -85,13 +80,51 @@ body {
   border-bottom: 2px solid #0a3459;
 }
 
-/* Aside com imagens */
+.article-text {
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+.article-figure {
+  float: right;
+  margin: 0 0 1rem 1rem;
+  max-width: 300px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.article-text-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.article-figure figcaption {
+  background-color: #f5f5f5;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  color: #646466;
+}
+
+.article-subtitle {
+  color: #0a3459;
+  margin: 1.5rem 0 1rem;
+  font-size: 1.3rem;
+}
+
+/* Aside | Barra lateral */
 .aside {
+  flex: 0 0 300px;
   position: sticky;
   top: 2rem;
   display: flex;
   flex-direction: column;
   gap: 2rem;
+}
+
+.aside figure {
+  margin: 0;
 }
 
 .aside-img {
@@ -103,6 +136,24 @@ body {
 
 .aside-img:hover {
   transform: scale(1.02);
+}
+
+figcaption {
+  margin-top: 0.5rem;
+  color: #646262;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+/* Citações */
+cite {
+  color: #ffffff;
+  font-style: italic;
+}
+
+cite a {
+  color: inherit;
+  text-decoration: underline;
 }
 
 /* Links */
@@ -122,7 +173,7 @@ a:hover {
   padding-top: 1rem;
   border-top: 1px solid #eee;
   font-size: 0.9rem;
-  color: #666;
+  color: #646262;
 }
 
 /* Footer */
@@ -132,7 +183,7 @@ footer {
   align-items: center;
   gap: 1.5rem;
   background-color: #0a3459;
-  color: white;
+  color: #fff;
   text-align: center;
   padding: 2rem 5rem;
   margin-top: 3rem;
@@ -145,7 +196,7 @@ footer {
 }
 
 .footer-social {
-  background-color: #ffffff;
+  background-color: #fff;
   padding: 0.5rem;
   border-radius: 10px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
@@ -159,11 +210,6 @@ footer {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-}
-
-.footer-link {
-  text-decoration: none;
-  transition: color 0.3s ease;
 }
 
 .footer-icon {
