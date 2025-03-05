@@ -26,8 +26,8 @@ body {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-/* Container de dados */
-.container-data {
+/* Section de dados */
+.section-data {
   background-color: #fff;
   margin: -3rem 10rem 4rem;
   padding: 2rem;
@@ -49,7 +49,7 @@ body {
 }
 
 /* Seção principal */
-.section {
+.section-articles {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 2rem;
@@ -170,8 +170,7 @@ a:hover {
 /* Referências */
 .reference {
   margin-top: 1.5rem;
-  padding-top: 1rem;
-  border-top: 1px solid #eee;
+  padding: 1rem;
   font-size: 0.9rem;
   color: #646262;
 }
@@ -215,4 +214,140 @@ footer {
 .footer-icon {
   width: 28px;
   height: 28px;
+}
+
+/* ==================== RESPONSIVIDADE ==================== */
+
+/* Tablets e telas até 768px */
+@media screen and (max-width: 768px) {
+  /* Seção dos dados gerais da tartaruga */
+  .section-data {
+    margin: -3rem 3rem 4rem;
+    padding: 1.5rem;
+  }
+
+  .data-label {
+    font-size: 0.9rem;
+  }
+
+  .data-value {
+    font-size: 0.9rem;
+  }
+
+  .reference {
+    padding: 0.5rem;
+    border-radius: 10px;
+  }
+
+  /* Seção com os artigos */
+  .section-articles {
+    padding: 0 1rem;
+    gap: 1rem;
+  }
+
+  .container-article {
+    min-width: 100%;
+  }
+
+  .aside {
+    flex: 1;
+    position: static;
+    flex-direction: row;
+    margin-top: 2rem;
+  }
+
+  .aside figure {
+    flex: 1;
+  }
+
+  footer {
+    padding: 2rem;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* Smartphones e telas até 430px */
+@media screen and (max-width: 430px) {
+  /* Cabeçalho */
+  .header-title {
+    font-size: 1.8rem;
+  }
+
+  /* Seção dos dados gerais da tartaruga */
+  .section-data {
+    margin: -3rem 1rem 3rem;
+    padding: 1rem;
+    flex: 2;
+  }
+
+  .section-articles {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .article {
+    padding: 1.5rem;
+  }
+
+  .article-figure {
+    float: none;
+    margin: 1rem 0;
+    max-width: 100%;
+  }
+
+  .aside {
+    flex-direction: column;
+    order: -1;
+  }
+
+  .container-article {
+    order: 1;
+  }
+}
+
+/* Smartphones pequenos (320px) */
+@media screen and (max-width: 320px) {
+  .header-title {
+    font-size: 1.5rem;
+  }
+
+  .section-data {
+    margin: -3rem 0.5rem 2rem;
+    padding: 0.8rem;
+  }
+
+  .section-articles {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .aside {
+    flex-direction: column;
+    flex: 1;
+    order: -1;
+  }
+
+  .article {
+    padding: 1rem;
+  }
+
+  .article-title {
+    font-size: 1.3rem;
+  }
+
+  .data-label,
+  .data-value {
+    font-size: 0.85rem;
+  }
+
+  .reference {
+    font-size: 0.8rem;
+  }
+
+  .container-article {
+    order: 1;
+  }
 }
