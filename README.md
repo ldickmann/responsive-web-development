@@ -2,7 +2,7 @@
 
 ## Matéria: Responsive Web Development
 
-### https://ldickmann.github.io/tartaruga-de-couro/
+### Deploy: https://ldickmann.github.io/tartaruga-de-couro/
 
 ## 📋 Sobre o Projeto
 
