@@ -37,10 +37,6 @@ Acesse os projetos em: [https://ldickmann.github.io/responsive-web-development/]
 
 - GitHub: [@alexrese](https://github.com/alexrese)
 
-## 📝 Licença
-
-Este projeto está sob a licença MIT.
-
 ## 📚 Univali
 
 Projeto desenvolvido durante o curso de Análise e Desenvolvimento de Sistemas da Universidade do Vale do Itajaí - UNIVALI.
