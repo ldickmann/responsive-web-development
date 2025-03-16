@@ -15,14 +15,14 @@ Acesse os projetos em: [https://ldickmann.github.io/responsive-web-development/]
    - [Ver projeto](https://ldickmann.github.io/responsive-web-development/tartaruga-de-couro)
 
 2. **A Carta**
-   - Em desenvolvimento
+   - Carta destina as Mulheres
    - [Ver projeto](https://ldickmann.github.io/responsive-web-development/carta-ao-leitor)
 
 ## 🚀 Tecnologias
 
 - HTML5
 - CSS3
-- Princípios de Design Responsivo
+- Design Responsivo
 
 ## 👨‍💻 Autor
 
