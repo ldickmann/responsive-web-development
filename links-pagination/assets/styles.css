@@ -1,0 +1,57 @@
+body {
+  background-color: #6a927b;
+  margin: 0;
+  padding: 0;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container-pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.list-pagination {
+  border: 1px solid #ccc;
+  margin: 0;
+}
+
+.link-pagination {
+  display: block;
+  padding: 10px 15px;
+  background-color: #fff;
+  color: #007bff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 1px solid #ccc;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover - Efeito ao passar o mouse */
+.link-pagination:hover {
+  background-color: #939393;
+}
+
+.icon-prev,
+.icon-next {
+  font-weight: bold;
+  padding: 10px 15px;
+}
