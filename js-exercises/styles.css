@@ -1,0 +1,88 @@
+.color-primary {
+  color: blue;
+  font-weight: bold;
+}
+
+.color-secondary {
+  color: orange;
+  font-style: italic;
+}
+
+.color-tertiary {
+  color: red;
+  text-decoration: underline;
+}
+
+/* Variáveis CSS */
+:root {
+  --cor-fundo: #3b0b1e;
+  --cor-card: #1a2c1d;
+  --cor-primaria: #38502d;
+  --cor-secundaria: #6e8856;
+  --cor-hover: #8e9c57;
+  --cor-texto: #ffffff;
+  --transicao: 0.3s ease;
+}
+
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+  padding: 2rem;
+  line-height: 1.6;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--cor-secundaria);
+}
+
+section {
+  background-color: var(--cor-card);
+  border-left: 6px solid var(--cor-primaria);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  transition: transform var(--transicao);
+}
+
+section:hover {
+  transform: scale(1.01);
+}
+
+h2 {
+  font-size: 1.3rem;
+  color: var(--cor-hover);
+  margin-bottom: 0.75rem;
+}
+
+p {
+  margin-top: 0.75rem;
+  font-size: 1rem;
+  color: var(--cor-texto);
+}
+
+button {
+  background-color: var(--cor-secundaria);
+  color: var(--cor-fundo);
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color var(--transicao), color var(--transicao);
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: var(--cor-hover);
+  color: var(--cor-fundo);
+}
