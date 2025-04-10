@@ -20,8 +20,14 @@ Acesse os projetos em: [https://ldickmann.github.io/responsive-web-development/]
    - [Ver projeto](https://ldickmann.github.io/responsive-web-development/carta-ao-leitor)
 
 3. **Pagination**
+
    - Paginação de conteúdo
    - [Ver projeto](https://ldickmann.github.io/responsive-web-development/links-pagination/)
+
+4. **Manipulação com JavaScript**
+
+   - Manipulação de elementos HTML com JavaScript
+   - [Ver projeto](https://ldickmann.github.io/responsive-web-development/js-exercises/)
 
 ## 🚀 Tecnologias
 
